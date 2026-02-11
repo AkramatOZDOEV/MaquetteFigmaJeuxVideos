@@ -42,7 +42,7 @@ switchMode.addEventListener("click", () => {
     passwordInput.value = "";
     message.textContent = "";
 
-    //isSignUp = !isSignUp;
+    isSignUp = !isSignUp;
 
     if (isSignUp) 
     {
